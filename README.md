@@ -16,14 +16,14 @@ scala -version
 Scala code runner version 2.11.8 -- Copyright 2002-2016, LAMP/EPFL
 ```
 
-2. Check Spark 2.1 installation.  I like to set $SPARK_HOME environment variable and add $SPARK_HOME/bin to my path. Let's have a look at a simple example...
+2. Check Spark 2.1 installation.  (Optional) Set $SPARK_HOME environment variable and add $SPARK_HOME/bin to your path. Let's have a look at a simple example...
 
 ```bash
 spark-submit --class org.apache.spark.examples.SparkPi /path/to/Spark/examples/jars/spark-examples_2.11-2.1.0.jar 
 Pi is roughly 3.1452957264786323
 ```
 
-3. Let's run an custom example in Spark...
+3. Let's run an custom example (WordCount) in Spark...
 
   * `cd WordCount/`
   * `sbt package`
@@ -59,3 +59,5 @@ spark-submit --class org.apache.spark.sql.simba.examples.BasicSpatialOps /path/t
 ...
 
 ```
+4. How to read CSV files...
+  * 

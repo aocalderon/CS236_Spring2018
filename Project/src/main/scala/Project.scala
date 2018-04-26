@@ -28,7 +28,7 @@ object Project {
     val pois = simba.read.
       option("header", "true").
       schema(schema).
-      csv("/home/and/Documents/PhD/TA/CS236FinalProject/Datasets/POIs.csv").
+      csv(args(0)).
       as[POI]
     pois.show(truncate = false)
     println(pois.count())
