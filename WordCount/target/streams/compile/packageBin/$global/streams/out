@@ -1,0 +1,13 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /opt/CS236_Spring2018/WordCount/target/scala-2.11/pflock_2.11-2.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WordCount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /opt/CS236_Spring2018/WordCount/target/scala-2.11/classes/WordCount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WordCount$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /opt/CS236_Spring2018/WordCount/target/scala-2.11/classes/WordCount$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /opt/CS236_Spring2018/WordCount/target/scala-2.11/classes/WordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	data.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /opt/CS236_Spring2018/WordCount/target/scala-2.11/classes/data.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WordCount$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /opt/CS236_Spring2018/WordCount/target/scala-2.11/classes/WordCount$$anonfun$1.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

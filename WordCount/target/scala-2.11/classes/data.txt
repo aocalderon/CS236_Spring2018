@@ -1,0 +1,21 @@
+Spark 2.0 is the next major release of Apache Spark. This release brings major changes to abstractions, API’s and libraries of the platform. This release sets the tone for next year’s direction of the framework. So understanding these few features is critical to understand for the ones who want to make use all the advances in this new release. So in this series of blog posts, I will be discussing about different improvements landing in Spark 2.0.
+
+This is the second blog in series, where I will be discussing about dataset abstraction of Spark. You can access all the posts in the series here.
+
+TL;DR All code examples are available on github.
+
+Introduction to Dataset
+Dataset is new abstraction in Spark introduced as alpha API in Spark 1.6. It’s becoming stable API in spark 2.0. It’s new single abstraction for all user land code in Spark.
+
+From Definition, ” A Dataset is a strongly typed collection of domain-specific objects that can be transformed in parallel using functional or relational operations. Each dataset also has an untyped view called a DataFrame, which is a Dataset of Row. “
+
+which sounds similar to RDD definition
+
+” RDD represents an immutable,partitioned collection of elements that can be operated on in parallel “
+
+The major difference is, dataset is collection of domain specific objects where as RDD is collection of any object. Domain object part of definition signifies the schema part of dataset. So dataset API is always strongly typed and optimized using schema where RDD is not.
+
+Dataset definition also talks about Dataframes API. Dataframe is special dataset where there is no compilation checks for schema. So this makes dataSet new single abstraction replacing RDD from earlier versions of spark.
+
+Once we understood the dataset abstraction, in rest of post we will see how to work with this abstraction.
+
