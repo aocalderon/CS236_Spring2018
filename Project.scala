@@ -1,6 +1,7 @@
 package org.apache.spark.sql.simba.examples
 
 import org.apache.spark.sql.simba.SimbaSession
+import org.apache.spark.sql.simba.index.RTreeType
 import org.apache.spark.sql.types.StructType
 import org.apache.spark.sql.catalyst.ScalaReflection
 
