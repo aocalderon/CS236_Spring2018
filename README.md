@@ -60,6 +60,37 @@ spark-submit --class org.apache.spark.sql.simba.examples.BasicSpatialOps /path/t
 
 ```
 4. How to read CSV files...
-  * `cd Project/`
-  * `sbt package`
-  * `spark-submit /opt/CS236_Spring2018/WordCount/target/scala-2.11/pflock_2.11-2.0.jar`
+  * Copy the `points.csv` file somewhere...
+  * Move the `Project.scala` file to the example folder of Simba... 
+  * `sbt package` 
+  * Run as a new example:
+```bash
+spark-submit --class org.apache.spark.sql.simba.examples.Project /path/to/Simba/target/scala-2.11/simba_2.11-1.0.jar /path/to/points.csv 
++---+----+----+---+
+|pid|x   |y   |tag|
++---+----+----+---+
+|0  |1.0 |1.0 |A  |
+|1  |2.0 |2.0 |B  |
+|2  |3.0 |3.0 |C  |
+|3  |4.0 |4.0 |D  |
+|4  |5.0 |5.0 |E  |
+|5  |6.0 |6.0 |F  |
+|6  |7.0 |7.0 |G  |
+|7  |8.0 |8.0 |H  |
+|8  |9.0 |9.0 |I  |
+|9  |10.0|10.0|J  |
++---+----+----+---+
+
+10
++---+---+---+---+
+|pid|  x|  y|tag|
++---+---+---+---+
+|  0|1.0|1.0|  A|
+|  1|2.0|2.0|  B|
+|  2|3.0|3.0|  C|
+|  3|4.0|4.0|  D|
+|  4|5.0|5.0|  E|
+|  5|6.0|6.0|  F|
++---+---+---+---+
+
+```
