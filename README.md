@@ -60,4 +60,6 @@ spark-submit --class org.apache.spark.sql.simba.examples.BasicSpatialOps /path/t
 
 ```
 4. How to read CSV files...
-  * 
+  * `cd Project/`
+  * `sbt package`
+  * `spark-submit /opt/CS236_Spring2018/WordCount/target/scala-2.11/pflock_2.11-2.0.jar`
